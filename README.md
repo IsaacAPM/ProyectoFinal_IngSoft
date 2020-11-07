@@ -1,20 +1,20 @@
-#Especificación de los Requerimientos del software
-##Para 
-#Aplicación de comunicación para miembros de la comunidad ITAM
+# Especificación de los Requerimientos del software
+## Para 
+# Aplicación de comunicación para miembros de la comunidad ITAM
 
-###Hecho por 
-- ####Anairam Mar Cuevas 181375
-- ####Isaac Alejandro Pimentel Morales 184041 
-- ####Carlos Andrés Ocampo Antonio 
-- ####Diego Hernández Delgado 
+### Hecho por 
+- #### Anairam Mar Cuevas 181375
+- #### Isaac Alejandro Pimentel Morales 184041 
+- #### Carlos Andrés Ocampo Antonio 
+- #### Diego Hernández Delgado 
 
-###Instituto Tecnológico Autónomo de México
-###07 de noviembre de 2020
+### Instituto Tecnológico Autónomo de México
+### 07 de noviembre de 2020
 
 ## Tabla de contenido
 
-###Tabla de contenido
-###Revisión de historia
+### Tabla de contenido
+### Revisión de historia
 1. Introducción
 Objetivo 
 Convención de documento
