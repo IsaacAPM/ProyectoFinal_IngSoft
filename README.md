@@ -88,8 +88,27 @@ La aplicación tiene el objetivo de suplir y mejorar las necesidades de comunica
 Esta aplicación formará parte del conjunto de servicios digitales que ofrece la universidad (Comunidad ITAM, Canvas, Servicios Personalizados-Grace).
 
 ### Funciones del producto
+- Crear cuenta
+- Iniciar sesión con correo institucional
+- Lista de contactos
+- Buscador de contactos
+- Lista de conversaciones
+- Buscador de conversaciones
+- Enviar y recibir mensajes de texto
+- Enviar y recibir mensajes de voz
+- Enviar y recibir archivos estáticos 
+- Ver y editar perfil de usuatio propio y ajeno
+- Recibir notificaciones
+- Cerrar sesión
 
 ### Clases de usuario y características
+El usuario será diferenciado a través de una etiqueta en el perfil de usuario. Todos los usuarios tendrán una funcionalidad y privilegios similares con algunas diferencias que se mencionan a continuación.  
+
+El usuario de tipo "Alumno" podrá tener acceso y capacidad para llevar a cabo todas las funcionalidades mencionadas en el apartado anterior (Funciones del producto).
+
+Los usuarios de tipo "Maestro" y "Administrativo" tendrán las mismas funcionalidades que los usuarios de tipo "Alumno" y, además, podrán enviar mensajes de difusión. El tipo "Maestro" podrá enviar mensajes de difusión, únicamente, a todos los alumnos inscritos en sus grupos y el tipo "Administrativo" podrá enviar mensajes de difusión, únicamente, a todos los miembros de su departamento académico y/o administrativo. 
+
+El usuario de tipo "Superusuario" tendrá las mismas funcionalidades que tienen los otros usuarios y, además, podrá enviar mensajes de difusión a todos los usuarios sin restricción, desactivar cuentas, crear y modificar los grupos de salones y equipos de trabajo administrativo. 
 
 ### Entorno operativo
 ### Limitaciones de diseño e implementación
