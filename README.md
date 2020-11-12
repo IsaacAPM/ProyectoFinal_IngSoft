@@ -6,7 +6,7 @@
 - #### Anairam Mar Cuevas 181375
 - #### Isaac Alejandro Pimentel Morales 184041 
 - #### Carlos Andrés Ocampo Antonio 
-- #### Diego Hernández Delgado 
+- #### Diego Hernández Delgado 176262
 
 ### Instituto Tecnológico Autónomo de México
 ### 07 de noviembre de 2020
@@ -61,109 +61,36 @@ Reglas de negocio
 Apendice A: Glosario
 Apendice B: Modelos de análisis
 
-1. Introducción
-Objetivo 
-Convención de documento
-Audiencia prevista y sugerencias de lectura
-Alcance del producto
-Referencias
-
-2. Descripción general
-Perspectiva del producto
-Funciones del producto
-Clases de usuario y características
-Entorno operativo
-Limitaciones de diseño e implementación
-Documentación de usuario
-Dependencias y Supuestos
-
-3. Requisitos de la interfaz externa
-interfaz de usuario
-interfaz de hardware
-interfaz de software
-interfaz de comunicación
-
-4. Funcionalidades del sistema
-Crear cuenta
-Inicio de sesión
-Ver lista de contactos ( barra de búsqueda)
-Seleccionar método de comunicación
-Chat individual
-Videollamada
-Grupo de conversación
-Ver perfil
-Modificar perfil
-Notificaciones
-Cerrar sesión
-
-5. Otros requerimientos no funcionales
-Requerimientos de rendimiento
-Requerimientos de seguridad
-Atributos de calidad de software 
-Reglas de negocio
-
-6. Otros Requerimientos
-
-Apendice A: Glosario
-Apendice B: Modelos de análisis
-
-1. Introducción
-Objetivo 
-Convención de documento
-Audiencia prevista y sugerencias de lectura
-Alcance del producto
-Referencias
-
-2. Descripción general
-Perspectiva del producto
-Funciones del producto
-Clases de usuario y características
-Entorno operativo
-Limitaciones de diseño e implementación
-Documentación de usuario
-Dependencias y Supuestos
-
-3. Requisitos de la interfaz externa
-interfaz de usuario
-interfaz de hardware
-interfaz de software
-interfaz de comunicación
-
-4. Funcionalidades del sistema
-Crear cuenta
-Inicio de sesión
-Ver lista de contactos ( barra de búsqueda)
-Seleccionar método de comunicación
-Chat individual
-Videollamada
-Grupo de conversación
-Ver perfil
-Modificar perfil
-Notificaciones
-Cerrar sesión
-
-5. Otros requerimientos no funcionales
-Requerimientos de rendimiento
-Requerimientos de seguridad
-Atributos de calidad de software 
-Reglas de negocio
-
-6. Otros Requerimientos
-
-Apendice A: Glosario
-Apendice B: Modelos de análisis
 
 ## 1. Introducción
+
 ### Objetivo 
+El presente documento describe y plantea los requerimientos de software para el desarrollo de una aplicación de comunicación interna del Instituto Tecnológico Autónomo de México, con el objetivo de facilitar el intercambio de mensajes de texto, notas de voz y archivos entre alumnos, docentes y personal administrativo para solucionar dudas, entregar tareas y organizar grupos de trabajo y estudio. 
+
 ### Convención de documento
-### Audiencia prevista y sugerencias de lectura
+
+### Audiencia prevista
+El presente documento está dirigido para la lectura y aprobación por parte del departamento de Servicios Escolares del ITAM, para el equipo de programadores que desarrollará la aplicación, para los "testers" o Quality Assurance Accountables que provarán las funcionalidades y remarcán los errores o bugs para su corrección, así como, para el Product Manager, con el objetivo de que coordine el proyecto ciñendose en este documento. 
+
+### Sugerencias de lectura
+Para su mejor lectura y comprensión, se sugiere leer el documento en orden secuencial y revisar la tabla de contenidos para localizar algún tema, funcionalidad o punto en específico. 
+
 ### Alcance del producto
+La aplicación permitirá a los más de 4,000 alumnos, así como, a los profesores y personal administrativo comunicarse por mensajes de texto, notas de voz, vídeo y compartir archivos de manera ágil y agradable, pues su interfaz gráfica (UI) y las funcionalidades conformarán una buena experiencia de usuario (UX). 
+
 ### Referencias
 
+
 ## 2. Descripción general
+
 ### Perspectiva del producto
+La aplicación tiene el objetivo de suplir y mejorar las necesidades de comunicación del ITAM que, actualmente, satisface el software Microsoft Teams. 
+Esta aplicación formará parte del conjunto de servicios digitales que ofrece la universidad (Comunidad ITAM, Canvas, Servicios Personalizados-Grace).
+
 ### Funciones del producto
+
 ### Clases de usuario y características
+
 ### Entorno operativo
 ### Limitaciones de diseño e implementación
 ### Documentación de usuario
