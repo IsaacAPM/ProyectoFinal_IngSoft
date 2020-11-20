@@ -97,7 +97,8 @@ Esta aplicación formará parte del conjunto de servicios digitales que ofrece l
 - Enviar y recibir mensajes de texto
 - Enviar y recibir mensajes de voz
 - Enviar y recibir archivos estáticos 
-- Ver y editar perfil de usuatio propio y ajeno
+- Ver el perfil propio y el de otros usuarios
+- Editar el perfil propio
 - Recibir notificaciones
 - Cerrar sesión
 
