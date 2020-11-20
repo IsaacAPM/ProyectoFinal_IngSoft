@@ -141,7 +141,7 @@ Solo puede crear una cuenta con su correo del ITAM --> sino enviará una alterta
 #### 4.2.1 Descripción y prioridad
 La prioridad es alta. Para inciar sesión el usuario escribe sus datos y entra al sistema.
 #### 4.2.2 Secuencias de respuesta
-El usuario entra en la página de inicio y hay dos botones iniciar sesión o crear cuenta, el usuario que ya tiene una cuenta da click en iniciar sesión por lo tanto necesitará escribir su nombre de usuario y contraseña, la aplicación accede a la base de datos, verfica e ingresa.
+El usuario entra en la página de inicio y hay dos botones iniciar sesión o crear cuenta, el usuario que ya tiene una cuenta da click en iniciar sesión por lo tanto necesitará escribir su nombre de usuario y contraseña, accede a la API de inicio de sesión de Microsoft verfica e ingresa.
 #### 4.2.3 Requerimientos funcionales
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
 Tener capacidad de al menos 6,000 usuarios.
