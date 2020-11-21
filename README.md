@@ -137,7 +137,7 @@ Será necesario que la aplicación pueda procesar múltiples solicitudes al mism
 Que tenga capacidad para al menos 6,000  usuarios
 Solo puede crear una cuenta con su correo del ITAM --> sino enviará una alterta de error con el mensaje "por favor ingrese su correo instucional"
 
-### Inicio de sesión
+### 4.2Inicio de sesión
 #### 4.2.1 Descripción y prioridad
 La prioridad es alta. Para inciar sesión el usuario escribe sus datos y entra al sistema.
 #### 4.2.2 Secuencias de respuesta
@@ -155,14 +155,69 @@ El usuario se dirige al apartado de contactos donde encontrará una barra de bú
 #### 4.3.3 Requerimientos funcionales
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
 
-### Seleccionar método de comunicación
-### Chat individual
-### Videollamada
-### Grupo de conversación
-### Ver perfil
-### Modificar perfil
-### Notificaciones
-### Cerrar sesión
+### 4.4 Ver lista de conversaciones
+#### 4.4.1 Descripción y calidad
+La prioridad es alta. Habrá un apartado "chat" donde el usuario pordrá ver una lista de sus chats con el más reciente en la parte de arriba y así sucesivamente.
+#### 4.4.2 Secuencias de respuesta
+El usuario se dirige al apartado de "chat" ahí encontrará una lista de sus chats más recientes. Si quiere filtrar la búsqueda habrá un botón de filtrar, asimismo, podrá redactar un mensaje oprimiendo el botón de "nuevo chat"
+#### 4.4.3 Requerimientos funcionales
+Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
+Espacio suficiente para que 6000 usuarios puedan guardar sus chats
+
+### 4.5 Enviar y recibir mensajes de texto
+#### 4.5.1 Descripción y prioridad
+La prioridad es alta. Los usuarios podrán enviar y recibir mensajes.
+#### 4.5.2 Secuencias de respuesta
+El usuario puede enviar mensajes utilizando diferentes botones que encontrará en la aplicación, oprime el botón y se abre una ventana de chat donde puede escribir el remitente y el mensaje. Para leer el mensaje el usuario se dirige a la ventana de chats donde tendrá una notificación abre el mensaje y lo lee.
+#### 4.5.3 Requerimientos funcionales
+Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
+
+### 4.6 Enviar y recibir mensajes de voz
+#### 4.6.1 Descripción y prioridad
+La prioridad es alta. Los usuarios podrán enviar y recibir mensajes de voz.
+#### 4.5.2 Secuencias de respuesta
+l usuario puede enviar mensajes utilizando diferentes botones que encontrará en la aplicación, oprime el botón y se abre una ventana de chat donde puede escribir el remitente y grabar el mensaje de voz. Para escuchar el mensaje, el usuario se dirige a la ventana de chats donde tendrá una notificación abre el mensaje y lo escucha.
+#### 4.5.3 Requerimientos funcionales
+Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
+
+### 4.7 Enviar y recibir archivos estáticos
+#### 4.7.1 Descripción y prioridad
+La prioridad es alta. Los usuarios podrán adjuntar archivos en sus mensajes y enviarlos.
+#### 4.7.2 Secuencias de respuesta
+El usuario abre la ventana de mensaje, oprime el botón de adjuntar archivo, selecciona el arhivo y lo adjunta. Adicionalmente, el usuario puede añadir un mensaje de texto o de voz al archivo que está enviando. Para recibir abre la ventana de chat que mostrará una notificación.
+#### 4.7.3 Requerimientos funcionales
+Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
+Será necesario que pueda enviar documentos como pdf, jpg, doc y los tipos comunes de archivo.
+Puede enviar 5 archivos máximo al mismo tiempo
+
+### 4.8 Ver perfil propio y el de otros usuarios
+#### 4.8.1 Descripción y prioridad
+La prioridad es intermedia en este apartado el usuario podrá ver los datos de su propio perfil y también los de los otros usuarios con datos como nombre completo, correo del institucional, foto e intereses.
+#### 4.8.2 Secuencias de respuesta
+Para ver el propio perfil, el usuario se dirige al botón de "mis datos" y da click en ver perfil. Para ver el perfil de otros usuarios, el usuario va al apartado de contactos, busca a la persona y oprime el botón de ver perfil. 
+#### 4.8.3 Requerimientos funcionales
+Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
+### 4.9 Editar el perfil propio
+#### 4.9.1 Descripción y prioridad
+La prioridad es intermedia. El usuario podrá editar datos de su perfil como intereses y foto.
+#### 4.9.2 Secuencias de respuesta
+El usuario da click en el botón de "mis datos" y luego en "modificar datos" y le aparecen los datos que puede modificar.
+#### 4.9.3 Requerimientos funcionales
+Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo.
+### 4.10 Recibir notificaciones
+#### 4.10.1 Descripción y prioridad
+Prioridad alta. El usuario recibira notificaciones cuando le llegue un mensaje.
+#### 4.10.2 Secuencias de respuesta
+EL usuario recibe el mensaje y a la par una notificación de que ha recibido un mensaje.
+#### 4.10.3 Requerimientos funcionales
+Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
+### 4.11 Cerrar sesión
+#### 4.11.1 Descripción y prioridad
+Prioridad alta. El usuario cierra la sesión de su perfil por seguridad, de tal forma que sus datos queden seguros y nadie pueda mandar mensajes en su nombre.
+#### 4.11.2 Secuencias de respuesta
+El usuario va al botón de "mis datos" y luego al botón de "cerrar sesión".
+#### 4.11.3 Requerimientos funcionales
+Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
 
 ## 5. Otros requerimientos no funcionales
 ### Requerimientos de rendimiento
