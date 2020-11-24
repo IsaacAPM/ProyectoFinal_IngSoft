@@ -13,27 +13,27 @@
 
 ## Tabla de contenido
 1) Test Plan Identifier 
-2) References 
-3) Introduction 
+2) Referencias 
+3) Introducción 
 4) Test Items 
-5) Software Risk Issues 
-6) Features to be Tested 
-7) Features not to be Tested 
+5) Riesgos del Software  
+6) Features por ser testeadas 
+7) Features que no serán testeadas 
 8) Approach  
 9) Item Pass/Fail Criteria 
 10) Suspension Criteria and Resumption Requirements 
 11) Test Deliverables 
 12) Remaining Test Tasks 
-13) Environmental Needs 
+13) Necesidades del ambiente 
 14) Staffing and Training Needs 
-15) Responsibilities 
-16) Schedule 
-17) Planning Risks and Contingencies 
+15) Responsabilidades  
+16) Agenda 
+17) Planeación de riesgos y contingencias 
 18) Approvals 
-19) Glossary
+19) Glosario
 
 ## 1) Test Plan Identifier 
-## 2) References 
+## 2) Referencias 
 
 Project Plan 
 Requirements specifications 
@@ -43,9 +43,9 @@ Development and Test process standards
 Methodology guidelines and examples 
 Corporate standards and guidelines 
 
-## 3) Introduction 
+## 3) Introducción 
 ## 4) Test Items 
-## 5) Software Risk Issues 
+## 5) Riesgos del Software 
 1. Delivery of a third party product. 
 2. New version of interfacing software 
 3. Ability to use and understand 
@@ -60,17 +60,17 @@ There are some inherent software risks such as complexity; these need to be iden
 2. Multiple interfaces 
 3. Impacts on Client 
 4. Government regulations and rules
-## 6) Features to be Tested 
-## 7) Features not to be Tested 
+## 6) Features por ser testeadas 
+## 7) Features que no serán testeadas 
 ## 8) Approach  
 ## 9) Item Pass/Fail Criteria 
 ## 10) Suspension Criteria and Resumption Requirements 
 ## 11) Test Deliverables 
 ## 12) Remaining Test Tasks 
-## 13) Environmental Needs 
+## 13) Necesidades del ambiente 
 ## 14) Staffing and Training Needs 
-## 15) Responsibilities 
-## 16) Schedule 
-## 17) Planning Risks and Contingencies 
+## 15) Responsabilidades 
+## 16) Agenda 
+## 17) Planeación de riesgos y contingencias  
 ## 18) Approvals 
-## 19) Glossary
+## 19) Glosario
