@@ -324,12 +324,6 @@ Cliente: dispositivo móvil o computadora que solicita información al servidor.
 
 Microservicio: tipo de arquitectura de software que utiliza Restful API’s.
 
-Prioridad roja: altamente importante
-
-Prioridad amarilla: medianamente importante
-
-Prioridad verde: baja importancia
-
 ## Apéndice B: Modelos de análisis
 
 
