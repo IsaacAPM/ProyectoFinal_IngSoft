@@ -54,10 +54,10 @@ Se revisarán:
 
 ## 5) Riesgos del Software 
 - Que no pueda acceder a la apliación
-- Que los mensajes no estén bien encriptados
+- Que los mensajes no estén bien cifrados
 - Que se sature el sistema
 - Que los mensajes no lleguen a tiempo
-- Que los archivos se dañen al momento de enviarlos
+- No poder asegurar la integridad de los mensajes
 - Que se pueda robar la información
 
 ## 6) Features por ser testeadas 
