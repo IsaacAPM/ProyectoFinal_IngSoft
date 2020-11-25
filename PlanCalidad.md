@@ -98,24 +98,25 @@ Se tiene que hacer una lista cuantitativa de:
   -El valor de prueba:
   Nos referimos al valor de prueba con la siguiente métrica:
     -A cada error se le asignará un número de acuerdo al nivel de conflicto que genera:
-      - Si el error es grave, es decir que pasme el sistema, se dará un valor de 10
-      - Si el sistema no hace nada, es decir, que no cumple ninguna función,un valor de 9.
-      - Si el error permite la funcionalidad pero no cumple su objetivo, un valor de 8.
-      - Si el error hace que falle otro componente, valor de 7.
+      - Si el error provoca que el sistema colapse, se dará un valor de 10
+      - Si el sistema no hace nada, es decir, que no cumple ninguna función, un valor de 9.
+      - Si el error no afecta la funcionalidad del resto del sistema, pero la funcionalidad en particular no cumple completamente su objetivo, un valor de 8.
+      - La funcionaliadad funciona correctamente, pero proboca que otra falle, valor de 7.
       - Si hay un fallo que pasa por alguna irresponsabilidad, un valor de 5.
+      - Si la funcionalidad probada cumple entre 50% - 70% de su objetivo sin afectar a las demás se dara un valor de 4.
+      - Si la funcionalidad probada cumple un 80% de su objetivo sin afectar a las demás se dara un valor de 3.
+      - Si la funcionalidad probada cumple su objetivo pero o hace forma inneficiente y podria afectar el desempeño a largo plazo se le da un valor de 2.
       - Si no hay errores, valor de 0.
     
 - Se considera que un sistema es óptimo entre menor sea el número de errores, es decir, mientras que el promedio se acerque a cero.
     
 ## 9) Item Pass/Fail Criteria 
-Se considera que un componente, método o sistema pasa la prueba si y sólo cumple los requerimientos de los casos de uso sin que se presente algún error en su ejecución o en la interacción con otros sistemas y componentes.
-
-Aunque el valor de prueba sea de 2 o menos, no se puede permitir que un sistema se considere aprobado si cuenta con al menos un componente que cause errores de valor 5 o superior.
+Se considera que un componente, método o sistema pasa la prueba si y sólo si se obtiene un promedio de valor de prueba menor o igual a 2; sin embargo, si el valor de prueba es de 2 o menos, pero existe al menos un componente que cause errores de valor 5 o superior se considerara la prueba como fallida.
 
 ## 10) Suspension Criteria and Resumption Requirements 
-Si al momento de probar un componente o sistema se encuentran 2 errores de valor 10, se debe dejar de hacer la prueba y notificarle al PM a través de un reporte urgente para que tome las medidas necesarias.
+Si al momento de probar un componente o sistema se encuentran 2 errores con valor de prueba de 10, se debe dejar de hacer la prueba y notificarle al PM a través de un reporte urgente para que tome las medidas necesarias.
 
-Si el sistema o módulo logra un valor mayor a 5 se tomarán las medidas del caso previo.
+Si el sistema o módulo logra un valor de prueba mayor a 5 se tomarán las medidas del caso previo.
 
 Si el sistema o módulo (x) logra un valor: 2 < x < 5 se considera que el sistema tiene muchas fallas pero permiten la funcionalidad, se tienen que corregir.
 
@@ -125,14 +126,14 @@ Lo óptimo es que el sistema tenga un valor menor o igual a 2 para que se consid
 El reporte debe ser un documento que contenga:
   - Día de testeo
   - Persona que hizo las pruebas
-  - Funcionalidades probadas y que son correctas
-  - Funcionalidades probadas incorrectas
-    - Primero el número de prubas fallidas y a grosso modo el por qué se dieron las fallas
+  - Funcionalidades probadas que pasaron la prueba
+  - Funcionalidades probadas que fallaron la prueba
+    - Primero el número de pruebas fallidas y a grosso modo el por qué se dieron las fallas
     - Detalle de cada una de las pruebas fallidas
     - Recomendaciones para solucionar los conflictos
 
-Una vez entregado el reporte, el PM analizará y evaluará quién es la persona o personas idonesa para corregir los errores, entregará el reporte a los responsables.
-Los responsables tendrán 3 hrs la borales para leer los casos y estimar el tiempo que se lleve a cabo los arreglos.
+Una vez entregado el reporte, el PM analizará y evaluará quién es la persona o personas idoneas para corregir los errores, entregará el reporte a los responsables.
+Los responsables tendrán 3 hrs laborales para leer los casos y estimar el tiempo que tomara arreglar las fallas.
 
 Se iterará cuantas veces sea necesario.
 
