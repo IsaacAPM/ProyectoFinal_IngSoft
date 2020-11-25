@@ -153,7 +153,9 @@ Como ya se mencionó, nos limitaremos a las características de los componentes 
 ## 3. Requisitos de la interfaz externa
 ### Interfaz de usuario
 
----casos de uso
+![Imgur](https://i.imgur.com/mFyzYpx.jpg)
+![Imgur](https://i.imgur.com/eLg0dDo.jpg)
+![Imgur](https://i.imgur.com/mhc1Atr.jpg)
 
 ### Interfaz de hardware
 El servidor dedicado propiedad del ITAM tiene un sistema operativo Linux y un servidor Node.js con framework Express.js.
