@@ -1,8 +1,9 @@
 # Especificación de los Requerimientos del software
 ## Para 
 # Aplicación de comunicación para miembros de la comunidad ITAM
+# Version 1.0
 
-### Hecho por 
+### Elaborado por 
 - #### Anairam Mar Cuevas 181375
 - #### Isaac Alejandro Pimentel Morales 184041 
 - #### Carlos Andrés Ocampo Antonio 143599
@@ -65,26 +66,29 @@ Apendice B: Modelos de análisis
 ## 1. Introducción
 
 ### Objetivo 
-El presente documento describe y plantea los requerimientos de software para el desarrollo de una aplicación de comunicación interna del Instituto Tecnológico Autónomo de México, con el objetivo de facilitar el intercambio de mensajes de texto, notas de voz y archivos entre alumnos, docentes y personal administrativo para solucionar dudas, entregar tareas y organizar grupos de trabajo y estudio. 
+El presente documento describe y plantea los requerimientos de *software* para el desarrollo de una aplicación de comunicación interna del Instituto Tecnológico Autónomo de México, con el objetivo de facilitar el intercambio de mensajes de texto, notas de voz y archivos entre alumnos, docentes y personal administrativo para solucionar dudas, entregar tareas y organizar grupos de trabajo y estudio. 
 
 ### Convención de documento
+Las palabras anglosajonas propias de la jerga de tecnología, diseño o negocios tendrán un estilo de fuente itálica.
+Cada requisito tendrá su orden de prioridad de desarrollo indicado del 1 al 5, de tal suerte que el 1 corresponde a la mayor prioridad y el 5 a la menor prioridad. En caso de que un requisito sea herencia o parte de otro más grande será indicado respectivamente. 
 
 ### Audiencia prevista
-El presente documento está dirigido para la lectura y aprobación por parte del departamento de Servicios Escolares del ITAM, para el equipo de programadores que desarrollará la aplicación, para los "testers" o Quality Assurance Accountables que provarán las funcionalidades y remarcán los errores o bugs para su corrección y para el Product Manager, con el objetivo de que coordine el proyecto ciñéndose a este documento. 
+El presente documento está dirigido para la lectura y aprobación por parte del departamento de Servicios Escolares del ITAM, para el equipo de programadores que desarrollará la aplicación, para los "testers" o *Quality Assurance Accountables* que provarán las funcionalidades y remarcán los errores o *bugs* para su corrección y para el *Product Manager*, con el objetivo de que coordine el proyecto ciñéndose a este documento. 
 
 ### Sugerencias de lectura
-Para su mejor lectura y comprensión, se sugiere leer el documento en orden secuencial y revisar la tabla de contenidos para localizar algún tema o funcionalidad en particular. 
+Es recomendable leer este documento en orden secuencial o cronológico, es decir, de arriba a abajo, de derecha a izquierda, pues esta lectura permitirá una mejor comprensión de todos los requerimientos. Sin embargo, si se desea leer algún tema en particular, la tabla de contenidos o índice facilita la rápida ubicación del tema deseado como las especificaciones de algún módulo o funcionalidad. 
 
 ### Alcance del producto
 La aplicación permitirá a los más de 4,000 alumnos, así como, a los profesores y personal administrativo comunicarse por mensajes de texto, notas de voz, vídeo y compartir archivos de manera ágil y agradable, pues su interfaz gráfica (UI) y las funcionalidades conformarán una buena experiencia de usuario (UX). 
 
 ### Referencias
-El trabajo se basa en el material aprendido durante la materia de Ing. de Software, impartida por la profesora Paulina Bustos Arellano, quien, a través de distintas fuentes de consulta preparó cada viernes la clase y presentó las metodologías, técnicas y herramientas necesarias para llevar a cabo este proyecto.
+- [Prototipo semifuncional](https://www.figma.com/proto/VoahKL2FrX9k4NXvX5IdEy/ITAM-CHAT-APP?node-id=4%3A6&scaling=min-zoom)
+- El trabajo se basa en el material aprendido durante la materia de Ingeniería de Software, impartida por la profesora Paulina Bustos Arellano, quien, a través de distintas fuentes de consulta preparó cada viernes la clase y presentó las metodologías, técnicas y herramientas necesarias para llevar a cabo este proyecto, es por eso que ella funge como un contacto de referencia para resolver dudas y complementar el desarrollo deseado. 
 
 ## 2. Descripción general
 
 ### Perspectiva del producto
-La aplicación tiene el objetivo de crear un canal institucional de comunicación para la comunidad ITAM que, actualmente satisface el software Microsoft Teams. 
+La aplicación tiene el objetivo de crear un canal institucional de comunicación para la comunidad ITAM que, actualmente, satisface el software Microsoft Teams. 
 Esta aplicación formará parte del conjunto de servicios digitales que ofrece la universidad (Comunidad ITAM, Canvas, Servicios Personalizados-Grace).
 
 ### Funciones del producto
@@ -112,36 +116,36 @@ Los usuarios de tipo "Maestro" y "Administrativo" tendrán las mismas funcionali
 El usuario de tipo "Superusuario" tendrá las mismas funcionalidades que tienen los otros usuarios y, además, podrá enviar mensajes de difusión a todos los usuarios sin restricción. Aunque los grupos, se asignan automáticamente de acuerdo al registro de servicios académicos, habrá alguien con la capacidad de desactivar cuentas, crear y modificar los grupos de salones y equipos de trabajo administrativo. 
 
 ### Entorno operativo
--La aplicación requerira un navegador web que soporte html5 y javascritp, preferentemente Google Chrome, FireFox o Microsoft Egde. 
+-La aplicación requerirá de un navegador web que soporte HTML5 y JavaScrptp; preferentemente, Google Chrome, FireFox o Microsoft Egde. 
 -Políticas corporativas o regulatorias.
--Las marcadas por el ITAM y el Estado Federal y de la Ciudad de México en relación a la privacidad de datos y manejo de información.
+-Las marcadas por el ITAM, el Estado Federal y de la Ciudad de México en relación a la privacidad de datos y manejo de información.
 
 ### Limitaciones de diseño e implementación
-La aplicación debera alojarse en los servidores del ITAM, por lo que esta limitada a la capacidad de estos. Ademas, la aplicación debera usar obligatoriamente el inico de sesión de Microsoft.
+La aplicación deberá alojarse en los servidores del ITAM, por lo que está limitada a la capacidad de estos. Ademas, la aplicación deberá usar, obligatoriamente, el inico de sesión de Microsoft.
 
 Será una plataforma pequeña para no más de 7 mil estudiantes, mil académicos y cien administrativos.
 
 No se adquirirá ninguna plataforma nueva de soporte para la aplicación, todo se desarrollará con base en las limitaciones técnicas de la institución.
--Tecnologías:
+- Tecnologías:
   Node.js Runtime
   Express JS Framework 
   Angular Framework 
   MySQL
 
 -Requisitos de idioma:
-La parte de alumno debe estar desarrollado en español e inglés.
-La parte de superusuario y administrativos debe estar en español.
+La interfaz de usuario estará disponible español e inglés.
+Particularmente, la interfaz del superusuario y administradores estará en español.
 
--Consideraciones de Seguridad 
+- Consideraciones de Seguridad:
 Guardar los hashes de las contraseña y no la contraseña normal.
 Mantener la confidencialidad de la información. 
 Garantizar la integridad de la información y su disponibilidad.
 
--Convenciones de diseño:
+- Convenciones de diseño:
 Seguir las convenciones de otras aplicaciones del ITAM, los colores de la institución así como logos y fuentes.
 
--Estándares de programación:
-Se seguirán las Convenciones de código de C#  de la Guía de programación de C#, que se pueden seguir en la página:
+- Estándares de programación:
+Se seguirán las convenciones de código de C#  de la Guía de programación de C#, que se pueden seguir en la página:
  https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
 ### Documentación de usuario
 Haremos un manual para alumnos, otro para profesores, uno para administrativos, para el superuruario y uno final para los que se encarguen del mantenimiento de la plataforma.
@@ -160,10 +164,9 @@ Como ya se mencionó, nos limitaremos a las características de los componentes 
 ### Interfaz de hardware
 El servidor dedicado propiedad del ITAM tiene un sistema operativo Linux y un servidor Node.js con framework Express.js.
 
-Del lado del cliente, como la aplicación será una plataforma web y una aplicación móvil,  los requerimientos de software son muy amplios, pues cualquier dispositivo con un explorador web, un dispositivo Android y IOS podrá utilizar la aplicación, siempre y cuando esté conectada a internet.
+Del lado del cliente, como la aplicación será una plataforma web y una aplicación móvil, los requerimientos de software son muy amplios, pues cualquier dispositivo con un explorador web, un dispositivo Android y IOS podrá utilizar la aplicación, siempre y cuando esté conectada a internet.
 
 ### Interfaz de software
-El servidor tiene un sistema operativo Windows . 
 
 La plataforma será desarrollada en el lenguaje de programación TypeScript: particularmente, el desarrollo del backend que permitirá la lógica del servidor será desarrollado en el ambiente de ejecución Node.js y utilizará el framework Express.js para un manejo más agradable de la interacción HTTP. 
 
@@ -300,12 +303,12 @@ Será necesario proteger los servidores donde se almacenarán los datos de los a
 
 
 ### Atributos de calidad de software 
-Como se utilizará el framework Angular JS para desarrollar de manera ágil el código del Frontend, si el cliente lo desea más, se puede utilizar el framework Ionic para generar código híbrido que corra en dispositivos móviles iOS y Android.
-Por su robustez, el manejador de base de datos (DBMS) a utilizar será MySQL.
+Como se utilizará el framework Angular JS para desarrollar de manera ágil el código del Frontend, si el cliente lo desea más, se puede utilizar el framework Ionic para generar código híbrido que corra en dispositivos móviles iOS y *Android*.
+Por su robustez, el manejador de base de datos (DBMS) a utilizar será *MySQL*.
 
 ### Reglas de negocio
 El usuario alumno podrá ingresar, ver su horario, buscar alumnos, maestros y administrativos. 
-El usuario profesor, podrá hacer lo mismo pero con la oportunidad de crear listas de difución. 
+El usuario profesor, podrá hacer lo mismo pero con la oportunidad de crear listas de difusión. 
 El superusuario es aquel que el ITAM designa para hacer las correcciones manualmente y de forma pertinente, de los errores que el sistema haya cometido o que se quieran hacer directamente.
 
 Se sugiere que haya un superusuario por cada departamento académico.
