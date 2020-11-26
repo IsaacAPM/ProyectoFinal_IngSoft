@@ -360,13 +360,13 @@ Microservicio: tipo de arquitectura de software que utiliza Restful API’s.
 
 ## Apéndice B: Modelos de análisis
 
-###Ejemplo de arquitectura del software de una aplicación de chat genérica
+### Ejemplo de arquitectura del software de una aplicación de chat genérica
 
 ![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/Ejemplo_de_Arquitectura_de_CatApp.png "Imagen: Ejemplo_de_Arquitectura_de_CatApp")
 
 [Fuente](https://medium.com/@sudarakayasindu/behind-the-scenes-of-chat-applications-38634f584758)
 
-###Ejemplo de esquema de base de datos de una aplicación de chat genérica
+### Ejemplo de esquema de base de datos de una aplicación de chat genérica
 
 ![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/Ejemplo_Esquema_BD_ChatApp.png "Imagen: Ejemplo_Esquema_BD_ChatApp")
 [Fuente](https://stackoverflow.com/questions/46484989/database-schema-for-chat-private-and-group)
