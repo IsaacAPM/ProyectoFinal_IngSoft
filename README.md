@@ -231,7 +231,7 @@ El usuario se dirige al apartado de contactos donde encontrará una barra de bú
 #### 4.3.3 Requerimientos funcionales
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
 
-![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/6.-ListadeChat.png "6.-ListadeChat.png")
+![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/7.-ContactosYBarraDeBúsqueda.png "7.-ContactosYBarraDeBúsqueda.png")
 
 ### 4.4 Ver lista de conversaciones
 #### 4.4.1 Descripción y calidad
@@ -264,7 +264,7 @@ l usuario puede enviar mensajes utilizando diferentes botones que encontrará en
 #### 4.5.3 Requerimientos funcionales
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
 
-![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/5.-ChattApp.png "5.-ChattApp.png")
+![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/8.-Envío_de_mensajes.png "8.-Envío_de_mensajes.png")
 
 
 ### 4.7 Enviar y recibir archivos estáticos
@@ -277,7 +277,7 @@ Será necesario que la aplicación pueda procesar múltiples solicitudes al mism
 Será necesario que pueda enviar documentos como pdf, jpg, doc y los tipos comunes de archivo.
 Puede enviar 5 archivos máximo al mismo tiempo
 
-![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/5.-ChattApp.png "5.-ChattApp.png")
+![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/8.-Envío_de_mensajes.png "8.-Envío_de_mensajes.png")
 
 
 ### 4.8 Ver perfil propio y el de otros usuarios
@@ -288,6 +288,8 @@ Para ver el propio perfil, el usuario se dirige al botón de "mis datos" y da cl
 #### 4.8.3 Requerimientos funcionales
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
 
+![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/7.-ContactosYBarraDeBúsqueda.png "Imagen: ver perfil propio y el de otros usuarios")
+
 ### 4.9 Editar el perfil propio
 #### 4.9.1 Descripción y prioridad
 La prioridad es intermedia. El usuario podrá editar datos de su perfil como intereses y foto.
@@ -295,6 +297,8 @@ La prioridad es intermedia. El usuario podrá editar datos de su perfil como int
 El usuario da click en el botón de "mis datos" y luego en "modificar datos" y le aparecen los datos que puede modificar.
 #### 4.9.3 Requerimientos funcionales
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo.
+
+![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/9.-Menú_para_sali_de_sesión.png "Imagen: editar el perfil propio")
 
 ### 4.10 Recibir notificaciones
 #### 4.10.1 Descripción y prioridad
@@ -304,6 +308,8 @@ EL usuario recibe el mensaje y a la par una notificación de que ha recibido un 
 #### 4.10.3 Requerimientos funcionales
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
 
+![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/6.-ListadeChat.png "6.-ListadeChat.png")
+
 ### 4.11 Cerrar sesión
 #### 4.11.1 Descripción y prioridad
 Prioridad alta. El usuario cierra la sesión de su perfil por seguridad, de tal forma que sus datos queden seguros y nadie pueda mandar mensajes en su nombre.
@@ -311,6 +317,9 @@ Prioridad alta. El usuario cierra la sesión de su perfil por seguridad, de tal 
 El usuario va al botón de "mis datos" y luego al botón de "cerrar sesión".
 #### 4.11.3 Requerimientos funcionales
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
+
+![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/9.-Menú_para_sali_de_sesión.png "Imagen: editar el perfil propio")
+
 
 ## 5. Otros requerimientos no funcionales
 ### Requerimientos de rendimiento
@@ -351,8 +360,16 @@ Microservicio: tipo de arquitectura de software que utiliza Restful API’s.
 
 ## Apéndice B: Modelos de análisis
 
+###Ejemplo de arquitectura del software de una aplicación de chat genérica
 
+![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/Ejemplo_de_Arquitectura_de_CatApp.png "Imagen: Ejemplo_de_Arquitectura_de_CatApp")
 
+[Fuente](https://medium.com/@sudarakayasindu/behind-the-scenes-of-chat-applications-38634f584758)
+
+###Ejemplo de esquema de base de datos de una aplicación de chat genérica
+
+![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/Ejemplo_Esquema_BD_ChatApp.png "Imagen: Ejemplo_Esquema_BD_ChatApp")
+[Fuente](https://stackoverflow.com/questions/46484989/database-schema-for-chat-private-and-group)
 
 
 
