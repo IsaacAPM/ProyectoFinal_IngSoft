@@ -207,6 +207,9 @@ Será necesario que la aplicación pueda procesar múltiples solicitudes al mism
 Que tenga capacidad para al menos 6,000  usuarios
 Solo puede crear una cuenta con su correo del ITAM --> sino enviará una alterta de error con el mensaje "por favor ingrese su correo instucional"
 
+![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/1.-Landing.png "1.-Landing.png")
+![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/2.-Log-In.png "2.-Log-In.png")
+
 ### 4.2Inicio de sesión con correo institucional
 #### 4.2.1 Descripción y prioridad
 La prioridad es alta. Para inciar sesión el usuario escribe sus datos y entra al sistema.
@@ -217,6 +220,9 @@ Será necesario que la aplicación pueda procesar múltiples solicitudes al mism
 Tener capacidad de al menos 6,000 usuarios.
 Si el usuario ingresa datos incorrectos de tal forma que estos no se encuentran en la base de datos o no coinciden la aplicación enviara el mensaje "Datos incorrectos, por favor intentar de nuevo".
 
+![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/2.-Log-In.png "2.-Log-In.png")
+
+
 ### 4.3 Ver lista de contactos (barra de búsqueda)
 #### 4.3.1 Descripción y prioridad
 La prioridad es alta. Para poder establecer comunicación existe un apartado de contactos en donde estarán alumnos, profesores y administrtivos
@@ -224,6 +230,8 @@ La prioridad es alta. Para poder establecer comunicación existe un apartado de 
 El usuario se dirige al apartado de contactos donde encontrará una barra de búsqueda, ahí ingresará el nombre de la persona que busca. 
 #### 4.3.3 Requerimientos funcionales
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
+
+![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/6.-ListadeChat.png "6.-ListadeChat.png")
 
 ### 4.4 Ver lista de conversaciones
 #### 4.4.1 Descripción y calidad
@@ -234,6 +242,9 @@ El usuario se dirige al apartado de "chat" ahí encontrará una lista de sus cha
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
 Espacio suficiente para que 6000 usuarios puedan guardar sus chats
 
+![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/6.-ListadeChat.png "6.-ListadeChat.png")
+
+
 ### 4.5 Enviar y recibir mensajes de texto
 #### 4.5.1 Descripción y prioridad
 La prioridad es alta. Los usuarios podrán enviar y recibir mensajes.
@@ -242,6 +253,9 @@ El usuario puede enviar mensajes utilizando diferentes botones que encontrará e
 #### 4.5.3 Requerimientos funcionales
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
 
+![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/5.-ChattApp.png "5.-ChattApp.png")
+
+
 ### 4.6 Enviar y recibir mensajes de voz
 #### 4.6.1 Descripción y prioridad
 La prioridad es alta. Los usuarios podrán enviar y recibir mensajes de voz.
@@ -249,6 +263,9 @@ La prioridad es alta. Los usuarios podrán enviar y recibir mensajes de voz.
 l usuario puede enviar mensajes utilizando diferentes botones que encontrará en la aplicación, oprime el botón y se abre una ventana de chat donde puede escribir el remitente y grabar el mensaje de voz. Para escuchar el mensaje, el usuario se dirige a la ventana de chats donde tendrá una notificación abre el mensaje y lo escucha.
 #### 4.5.3 Requerimientos funcionales
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
+
+![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/5.-ChattApp.png "5.-ChattApp.png")
+
 
 ### 4.7 Enviar y recibir archivos estáticos
 #### 4.7.1 Descripción y prioridad
@@ -259,6 +276,9 @@ El usuario abre la ventana de mensaje, oprime el botón de adjuntar archivo, sel
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
 Será necesario que pueda enviar documentos como pdf, jpg, doc y los tipos comunes de archivo.
 Puede enviar 5 archivos máximo al mismo tiempo
+
+![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/5.-ChattApp.png "5.-ChattApp.png")
+
 
 ### 4.8 Ver perfil propio y el de otros usuarios
 #### 4.8.1 Descripción y prioridad
