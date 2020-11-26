@@ -199,13 +199,14 @@ Se utilizaran los protocolos https, smtp. Se dede contratar un certificado de se
 
 ### 4.1 Crear cuenta
 #### 4.1.1 Descripción y prioridad
-La prioridad es alta. Para que el usuario pueda utilizar el sistema de comunicación será necesario que cree una cuenta con sus datos, nombre de usuario y contraseña
+La prioridad es alta. Para que el usuario pueda utilizar el sistema de comunicación será necesario que cree una cuenta con sus datos: correo electrónico institucional y contraseña del mismo.
 #### 4.1.2 Secuencias de respuesta
-El usuario ingresa a la página web, y presiona el botón de crear cuenta, se le pide su correo del ITAM y una contraseña además de algunos datos para completar su perfil
+El usuario ingresa a la página principal, y presiona el botón de  *Log-In*. Posteriormente, se le muestra una pantalla donde podrá y deberá ingresar su correo del ITAM y una contraseña. En el caso de que la autenticación del correo con el microservicio de Microsoft sea exitosa, se le redigirá a la pantalla del *chat*, en caso contrario, se le mostrará un mensaje de error. 
+Aunque el flujo de pantallas y la experiencia de usuario es identica para quien ingresa por primera vez como para quien ingresa recurrentemente, en el proceso del backend, hay una radical diferencia, pues cuando es la primera vez, se obtienen los datos de la cuenta de correo y se registran en la base de datos del presente sistema. 
 #### 4.1.3 Requerimientos funcionales
-Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
-Que tenga capacidad para al menos 6,000  usuarios
-Solo puede crear una cuenta con su correo del ITAM --> sino enviará una alterta de error con el mensaje "por favor ingrese su correo instucional"
+Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo.
+Que tenga capacidad para al menos 6,000  usuarios.
+Solo puede crear una cuenta con su correo del ITAM, de lo contrario, se desplegará la pantalla de error que le dará la opción de "Ir a Microsoft" para solucionar los problemas de contraseña o el botón de "Intentar de nuevo" para hacer lo propio. 
 
 ![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/1.-Landing.png "1.-Landing.png")
 ![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/2.-Log-In.png "2.-Log-In.png")
@@ -214,7 +215,8 @@ Solo puede crear una cuenta con su correo del ITAM --> sino enviará una alterta
 #### 4.2.1 Descripción y prioridad
 La prioridad es alta. Para inciar sesión el usuario escribe sus datos y entra al sistema.
 #### 4.2.2 Secuencias de respuesta
-El usuario entra en la página de inicio y hay dos botones iniciar sesión o crear cuenta, el usuario que ya tiene una cuenta da click en iniciar sesión por lo tanto necesitará escribir su nombre de usuario y contraseña, accede a la API de inicio de sesión de Microsoft verfica e ingresa.
+El usuario ingresa a la página principal, y presiona el botón de  *Log-In*. Posteriormente, se le muestra una pantalla donde podrá y deberá ingresar su correo del ITAM y una contraseña. En el caso de que la autenticación del correo con el microservicio de Microsoft sea exitosa, se le redigirá a la pantalla del *chat*, en caso contrario, se le mostrará un mensaje de error. 
+Aunque el flujo de pantallas y la experiencia de usuario es identica para quien ingresa por primera vez como para quien ingresa recurrentemente, en el proceso del backend, hay una radical diferencia, pues cuando es la primera vez, se obtienen los datos de la cuenta de correo y se registran en la base de datos del presente sistema. 
 #### 4.2.3 Requerimientos funcionales
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
 Tener capacidad de al menos 6,000 usuarios.
@@ -225,11 +227,12 @@ Si el usuario ingresa datos incorrectos de tal forma que estos no se encuentran 
 
 ### 4.3 Ver lista de contactos (barra de búsqueda)
 #### 4.3.1 Descripción y prioridad
-La prioridad es alta. Para poder establecer comunicación existe un apartado de contactos en donde estarán alumnos, profesores y administrtivos
+La prioridad es alta. Para poder establecer comunicación existe un apartado de contactos en donde estarán alumnos, profesores y administrtivos.
+En la visualización de la lista, se podrá apreciar la imagen de perfil, un círculo sobre la imagen de perfil para indicar si está en línea (verde y rojo), el nombre de usuario y un ícono representativo del tipo de usuario y(estudiante, administrativo, maestro); en el caso que ya se haya iniciado una conversación con anterioridad, se mostrará el número de mensajes no leídos. 
 #### 4.3.2 Secuencias de respuesta
 El usuario se dirige al apartado de contactos donde encontrará una barra de búsqueda, ahí ingresará el nombre de la persona que busca. 
 #### 4.3.3 Requerimientos funcionales
-Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
+Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo. Las búsquedas se realizarán con todos los usuarios que ya estén registrados en la plataforma, sin importar si aún no han iniciado una conversación ni el tipo de usuario. 
 
 ![alt text](https://github.com/IsaacAPM/ProyectoFinal_IngSoft/blob/main/8.-Im%C3%A1genes/7.-ContactosYBarraDeBúsqueda.png "7.-ContactosYBarraDeBúsqueda.png")
 
@@ -237,7 +240,8 @@ Será necesario que la aplicación pueda procesar múltiples solicitudes al mism
 #### 4.4.1 Descripción y calidad
 La prioridad es alta. Habrá un apartado "chat" donde el usuario pordrá ver una lista de sus chats con el más reciente en la parte de arriba y así sucesivamente.
 #### 4.4.2 Secuencias de respuesta
-El usuario se dirige al apartado de "chat" ahí encontrará una lista de sus chats más recientes. Si quiere filtrar la búsqueda habrá un botón de filtrar, asimismo, podrá redactar un mensaje oprimiendo el botón de "nuevo chat"
+El usuario se dirige al apartado de "chat" ahí encontrará una lista de sus chats más recientes. Si quiere filtrar la búsqueda habrá un botón de filtrar, asimismo, podrá redactar un mensaje oprimiendo el botón de "nuevo chat".
+En la visualización de la lista, se podrá apreciar la imagen de perfil, un círculo sobre la imagen de perfil para indicar si está en línea (verde y rojo), el nombre de usuario y un ícono representativo del tipo de usuario y(estudiante, administrativo, maestro); en el caso que ya se haya iniciado una conversación con anterioridad, se mostrará el número de mensajes no leídos y la última vez que estuvo activo. 
 #### 4.4.3 Requerimientos funcionales
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
 Espacio suficiente para que 6000 usuarios puedan guardar sus chats
@@ -249,7 +253,8 @@ Espacio suficiente para que 6000 usuarios puedan guardar sus chats
 #### 4.5.1 Descripción y prioridad
 La prioridad es alta. Los usuarios podrán enviar y recibir mensajes.
 #### 4.5.2 Secuencias de respuesta
-El usuario puede enviar mensajes utilizando diferentes botones que encontrará en la aplicación, oprime el botón y se abre una ventana de chat donde puede escribir el remitente y el mensaje. Para leer el mensaje el usuario se dirige a la ventana de chats donde tendrá una notificación abre el mensaje y lo lee.
+El usuario puede enviar mensajes utilizando diferentes botones que encontrará en la aplicación, oprime el botón y se abre una ventana de chat donde puede escribir el remitente y el mensaje. Para leer el mensaje el usuario se dirige a la ventana de chats donde tendrá una notificación, abre el mensaje y lo lee.
+En la ventana de chat, se podrán leer los mensajes de los otros usuarios del lado izquierdo en color azul, con la imagen de perfil a un lado de cada uno, así como, la hora de envío. De manera similar, pero del otro lado (derecho) se mostrarán los mensajes enviados por el usuario en primera persona con las características anteriores. 
 #### 4.5.3 Requerimientos funcionales
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
 
@@ -260,7 +265,7 @@ Será necesario que la aplicación pueda procesar múltiples solicitudes al mism
 #### 4.6.1 Descripción y prioridad
 La prioridad es alta. Los usuarios podrán enviar y recibir mensajes de voz.
 #### 4.5.2 Secuencias de respuesta
-l usuario puede enviar mensajes utilizando diferentes botones que encontrará en la aplicación, oprime el botón y se abre una ventana de chat donde puede escribir el remitente y grabar el mensaje de voz. Para escuchar el mensaje, el usuario se dirige a la ventana de chats donde tendrá una notificación abre el mensaje y lo escucha.
+El usuario puede enviar mensajes utilizando diferentes botones que encontrará en la aplicación, oprime el botón y se abre una ventana de chat donde puede escribir el remitente y grabar el mensaje de voz. Para escuchar el mensaje, el usuario se dirige a la ventana de chats donde tendrá una notificación abre el mensaje y lo escucha.
 #### 4.5.3 Requerimientos funcionales
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
 
@@ -284,7 +289,7 @@ Puede enviar 5 archivos máximo al mismo tiempo
 #### 4.8.1 Descripción y prioridad
 La prioridad es intermedia en este apartado el usuario podrá ver los datos de su propio perfil y también los de los otros usuarios con datos como nombre completo, correo del institucional, foto e intereses.
 #### 4.8.2 Secuencias de respuesta
-Para ver el propio perfil, el usuario se dirige al botón de "mis datos" y da click en ver perfil. Para ver el perfil de otros usuarios, el usuario va al apartado de contactos, busca a la persona y oprime el botón de ver perfil. 
+Para ver el propio perfil, el usuario se dirige al botón de "mis datos" y da click en ver perfil, dicho botón se representa por unícono de tres puntos verticales a un lado del nombre del perfil propio, es decir, en la patrte superior derecha de toda la pantalla de chat. Para ver el perfil de otros usuarios, el usuario va al apartado de contactos, busca a la persona, abre el chat, da click en el ícono de los tres puntos verticales que se encuentran en la parte superior derecha y oprime el botón de ver perfil.
 #### 4.8.3 Requerimientos funcionales
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
 
@@ -304,7 +309,7 @@ Será necesario que la aplicación pueda procesar múltiples solicitudes al mism
 #### 4.10.1 Descripción y prioridad
 Prioridad alta. El usuario recibira notificaciones cuando le llegue un mensaje.
 #### 4.10.2 Secuencias de respuesta
-EL usuario recibe el mensaje y a la par una notificación de que ha recibido un mensaje.
+EL usuario recibe el mensaje de algún contacto y esa conversación se coloca en la primera posición de la lista de chats con un pequeña círculo que indica la cantidad de mensajes no leídos. 
 #### 4.10.3 Requerimientos funcionales
 Será necesario que la aplicación pueda procesar múltiples solicitudes al mismo tiempo
 
