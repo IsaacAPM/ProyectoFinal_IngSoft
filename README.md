@@ -287,7 +287,7 @@ Puede enviar 5 archivos máximo al mismo tiempo
 
 ### 4.8 Ver perfil propio y el de otros usuarios
 #### 4.8.1 Descripción y prioridad
-La prioridad es intermedia en este apartado el usuario podrá ver los datos de su propio perfil y también los de los otros usuarios con datos como nombre completo, correo del institucional, foto e intereses.
+La prioridad es intermedia en este apartado el usuario podrá ver los datos de su propio perfil y también los de los otros usuarios con datos como nombre completo, correo institucional, foto, perfil académico y laboral e intereses académicos.
 #### 4.8.2 Secuencias de respuesta
 Para ver el propio perfil, el usuario se dirige al botón de "mis datos" y da click en ver perfil, dicho botón se representa por unícono de tres puntos verticales a un lado del nombre del perfil propio, es decir, en la patrte superior derecha de toda la pantalla de chat. Para ver el perfil de otros usuarios, el usuario va al apartado de contactos, busca a la persona, abre el chat, da click en el ícono de los tres puntos verticales que se encuentran en la parte superior derecha y oprime el botón de ver perfil.
 #### 4.8.3 Requerimientos funcionales
